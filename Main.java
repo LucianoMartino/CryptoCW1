@@ -89,7 +89,7 @@ public class Main {
 			
 		}
 		for(String f : fence)
-			out.concat(f);
+			out += f;
 		
 		System.out.println(out);
 		return out;
